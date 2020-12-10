@@ -37,7 +37,7 @@ public class DriverSetup {
 		
 			// Create driver with hub address and capability
 			try {
-				driver = new RemoteWebDriver(new URL("http://192.168.1.4:5555/wd/hub"), cap);
+				driver = new RemoteWebDriver(new URL("http://192.168.1.5:5555/wd/hub"), cap);
 			} catch (MalformedURLException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -53,7 +53,7 @@ public class DriverSetup {
 			// execute the test on respective node
 			// Create driver with hub address and capability
 			try {
-				driver = new RemoteWebDriver(new URL("http://192.168.1.4:5555/wd/hub"), cap);
+				driver = new RemoteWebDriver(new URL("http://192.168.1.5:5555/wd/hub"), cap);
 			} catch (MalformedURLException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
