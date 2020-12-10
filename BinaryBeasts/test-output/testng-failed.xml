@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Functional Testing]">
+  <listeners>
+    <listener class-name="userDefinedLibraries.RetryListener"/>
+  </listeners>
+  <test thread-count="5" name="Smoke Test one(failed)">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="Smoke Test one"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testScenarios.UrbanLadder">
+        <methods>
+          <include name="print"/>
+          <include name="proceedToPayment"/>
+          <include name="operationPriceSelect"/>
+          <include name="operationstock"/>
+          <include name="toExcelWrite"/>
+          <include name="testcase_selectGiftCards"/>
+          <include name="getBeingAtHomeCollections"/>
+          <include name="operationPrice"/>
+          <include name="operationSearchBar"/>
+          <include name="driverConfig"/>
+          <include name="StudyChairprint"/>
+          <include name="operationSortBy"/>
+          <include name="testcase_customiseGiftCard"/>
+          <include name="errorMessage"/>
+          <include name="operationCategoryMenu"/>
+          <include name="operationStorage"/>
+          <include name="testcase_FillDetails"/>
+          <include name="testcase_clickGiftCards"/>
+          <include name="studyChairSearch"/>
+          <include name="ScreenShot"/>
+          <include name="testcase_readExcelDataValid"/>
+          <include name="testcase_FillValidDetails"/>
+          <include name="operationCategory"/>
+          <include name="driverExit"/>
+          <include name="operationSearch"/>
+          <include name="write_ErrorMessage"/>
+          <include name="operationStorageSelect"/>
+          <include name="testCaseReadExl"/>
+        </methods>
+      </class> <!-- testScenarios.UrbanLadder -->
+    </classes>
+  </test> <!-- Smoke Test one(failed) -->
+  <test thread-count="5" name="Smoke Test two(failed)">
+    <parameter name="browser" value="opera"/>
+    <groups>
+      <run>
+        <include name="Smoke Test two"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testScenarios.UrbanLadder">
+        <methods>
+          <include name="print"/>
+          <include name="proceedToPayment"/>
+          <include name="operationPriceSelect"/>
+          <include name="operationstock"/>
+          <include name="toExcelWrite"/>
+          <include name="testcase_selectGiftCards"/>
+          <include name="getBeingAtHomeCollections"/>
+          <include name="operationPrice"/>
+          <include name="operationSearchBar"/>
+          <include name="driverConfig"/>
+          <include name="StudyChairprint"/>
+          <include name="operationSortBy"/>
+          <include name="testcase_customiseGiftCard"/>
+          <include name="errorMessage"/>
+          <include name="operationCategoryMenu"/>
+          <include name="operationStorage"/>
+          <include name="testcase_FillDetails"/>
+          <include name="testcase_clickGiftCards"/>
+          <include name="studyChairSearch"/>
+          <include name="ScreenShot"/>
+          <include name="testcase_readExcelDataValid"/>
+          <include name="testcase_FillValidDetails"/>
+          <include name="operationCategory"/>
+          <include name="driverExit"/>
+          <include name="operationSearch"/>
+          <include name="write_ErrorMessage"/>
+          <include name="operationStorageSelect"/>
+          <include name="testCaseReadExl"/>
+        </methods>
+      </class> <!-- testScenarios.UrbanLadder -->
+    </classes>
+  </test> <!-- Smoke Test two(failed) -->
+  <test thread-count="5" name="Regression Test one(failed)">
+    <parameter name="browser" value="opera"/>
+    <groups>
+      <run>
+        <include name="Regression Test one"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testScenarios.UrbanLadder">
+        <methods>
+          <include name="operationSearchBar"/>
+          <include name="print"/>
+          <include name="driverConfig"/>
+          <include name="StudyChairprint"/>
+          <include name="driverExit"/>
+          <include name="operationSortBy"/>
+          <include name="studyChairSearch"/>
+          <include name="operationStorageSelect"/>
+          <include name="operationCategoryMenu"/>
+          <include name="operationPriceSelect"/>
+        </methods>
+      </class> <!-- testScenarios.UrbanLadder -->
+    </classes>
+  </test> <!-- Regression Test one(failed) -->
+  <test thread-count="5" name="Regression Test two(failed)">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="Regression Test two"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testScenarios.UrbanLadder">
+        <methods>
+          <include name="operationSearchBar"/>
+          <include name="print"/>
+          <include name="driverConfig"/>
+          <include name="driverExit"/>
+          <include name="studyChairSearch"/>
+          <include name="operationStorageSelect"/>
+          <include name="operationCategoryMenu"/>
+          <include name="operationPriceSelect"/>
+        </methods>
+      </class> <!-- testScenarios.UrbanLadder -->
+    </classes>
+  </test> <!-- Regression Test two(failed) -->
+</suite> <!-- Failed suite [Functional Testing] -->
